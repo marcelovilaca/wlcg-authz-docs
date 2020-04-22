@@ -66,7 +66,7 @@ uri       : wlcg-voms.cloud.cnaf.infn.it:15001
 
 ### Token-based authN/Z
 
-See the [token-based authn/z section](./token-based-authz/README.md).
+See the [token-based authn/z section](./token-based-authz/index.md).
 
 [wlcg-iam]: https://wlcg.cloud.cnaf.infn.it
 [iam-docs]: https://indigo-iam.github.io/docs
