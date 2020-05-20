@@ -32,10 +32,8 @@
 
 ### StoRM
 
-#### INFN-CNAF
-
--  https://xfer.cr.cnaf.infn.it:8443/wlcg
--  https://storm.cloud.cnaf.infn.it/wlcg
+-  [CNAF production endpoint](https://xfer.cr.cnaf.infn.it:8443/wlcg)
+-  [CNAF dev endpoint](https://storm.cloud.cnaf.infn.it/wlcg) (not yet active)
   
 ### XRootD
 
