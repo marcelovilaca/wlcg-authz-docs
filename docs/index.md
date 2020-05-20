@@ -64,10 +64,6 @@ timeleft  : 11:59:55
 uri       : wlcg-voms.cloud.cnaf.infn.it:15001
 ```
 
-### Token-based authN/Z
-
-See the [token-based authn/z section](./token-based-authorization/index.md).
-
 [wlcg-iam]: https://wlcg.cloud.cnaf.infn.it
 [iam-docs]: https://indigo-iam.github.io/docs
 [client-registration]: https://indigo-iam.github.io/docs/v/current/user-guide/client-registration.html
