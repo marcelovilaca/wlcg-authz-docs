@@ -8,7 +8,11 @@
 
 ### RUCIO
 
-- ?
+```INI
+[client]
+rucio_host = https://rucio-doma.cern.ch
+auth_host = https://rucio-doma-auth.cern.ch
+```
 
 ### FTS
 
@@ -16,11 +20,11 @@
 
 ### dCache
 
-- Prometheus?
+- [Prometheus dev endpoint](https://prometheus.desy.de:2443/VOs/wlcg)
 
 ### DPM
 
-- ?
+- [PRAGUE production endpoint](https://golias100.farm.particle.cz:443/dpm/farm.particle.cz/home/wlcg)
 
 ### Echo
 
