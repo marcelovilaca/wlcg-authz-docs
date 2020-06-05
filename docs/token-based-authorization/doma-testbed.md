@@ -8,10 +8,30 @@
 
 ### RUCIO
 
-```INI
+Install [rucio client](https://rucio.readthedocs.io/en/latest/installing_clients.html)
+```shell
+virtualenv rucio
+source rucio/bin/activate
+pip install rucio-clients
+mkdir rucio/etc
+cat > rucio/etc/rucio.cfg <<EOF
 [client]
-rucio_host = https://rucio-doma.cern.ch
-auth_host = https://rucio-doma-auth.cern.ch
+rucio_host = https://rucio-doma.cern.ch:443
+auth_host = https://rucio-doma-auth.cern.ch:443
+auth_type = x509_proxy
+# admin credentials
+#auth_type = userpass
+#username = ddmlab
+#password = secret
+account = root
+ca_cert = /etc/grid-security/certificates
+request_retries = 3
+EOF
+```
+Setup rucio client
+```shell
+source rucio/bin/activate
+export RUCIO_HOME=`pwd`/rucio
 ```
 
 ### FTS
