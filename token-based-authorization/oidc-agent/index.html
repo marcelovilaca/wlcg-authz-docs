@@ -301,8 +301,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-print-a-client-discription" class="md-nav__link">
-    How to print a client discription
+  <a href="#how-to-print-a-client-description" class="md-nav__link">
+    How to print a client description
   </a>
   
 </li>
@@ -413,8 +413,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-print-a-client-discription" class="md-nav__link">
-    How to print a client discription
+  <a href="#how-to-print-a-client-description" class="md-nav__link">
+    How to print a client description
   </a>
   
 </li>
@@ -463,6 +463,7 @@
                 
                 
                 <h1 id="oidc-agent">OIDC Agent</h1>
+<p><a href="https://github.com/indigo-dc/oidc-agent">oidc-agent</a> is a set of tools to get and manage OpenID Connect tokens and make them easily usable from the command line. It follows the <code>ssh-agent</code> design, so users can handle OIDC tokens in a similar way as they do with ssh keys.</p>
 <h2 id="installation-instructions"><strong>Installation instructions</strong></h2>
 <h3 id="quick-centos7-installation-recipe"><strong>Quick CENTOS7 installation recipe</strong></h3>
 <p>Current releases are available at <a href="https://github.com/indigo-dc/oidc-agent/releases">GitHub</a></p>
@@ -481,7 +482,7 @@ Agent pid 62088
 </code></pre>
 
 <ul>
-<li><strong><em>To install OIDC Agent from source or in a Debian/Ubuntu distro, please reffer to oidc-agent <a href="https://indigo-dc.gitbook.io/oidc-agent/installation/install">instalation documentation</a></em></strong></li>
+<li><strong><em>To install OIDC Agent from source or in a Debian/Ubuntu distro, please refer to oidc-agent <a href="https://indigo-dc.gitbook.io/oidc-agent/installation/install">instalation documentation</a></em></strong></li>
 </ul>
 <h2 id="how-to-register-a-client"><strong>How to register a client</strong></h2>
 <p>In order to obtain a token out of IAM, a user needs a client registered. oidc-agent can automate this step and store client credentials securely on the user machine.</p>
@@ -508,7 +509,7 @@ The following account configurations are usable:
 wlcg
 </code></pre>
 
-<h2 id="how-to-print-a-client-discription"><strong>How to print a client discription</strong></h2>
+<h2 id="how-to-print-a-client-description"><strong>How to print a client description</strong></h2>
 <p>Printing the full client decrypted content can be done by passing the account shortname or the absolute filepath of the account, with <code>oidc-gen --print</code> or simply the <code>-p</code> flag</p>
 <pre><code>$ oidc-gen -p wlcg
 Enter decryption password for account config 'wlcg': 
@@ -519,8 +520,8 @@ Enter decryption password for account config 'wlcg':
         &quot;device_authorization_endpoint&quot;:        &quot;https://wlcg.cloud.cnaf.infn.it/devicecode&quot;,
         &quot;daeSetByUser&quot;: 0,
         &quot;client_id&quot;:    &quot;f062c71e-920d-4b64-8282-a24d4101d8fc&quot;,
-        &quot;client_secret&quot;:        &quot;AKf_DoprR5LVXecGaN4TAacMGeqVKhICq9-fFX1FWUyIKslcMQTyKHFVz76D-eVC1iESbIAecy7uXbmXg4E7GCs&quot;,
-        &quot;refresh_token&quot;:        &quot;eyJhbGciOiJub25lIn0.eyJqdGkiOiI3NDFhY2NiNC1iOWY1LTRmYzctODg1MS0xN2M2MTQ4OTQzNDEifQ.&quot;,
+        &quot;client_secret&quot;:        &quot;xxxxxxxxxxxxxxxx&quot;,
+        &quot;refresh_token&quot;:        &quot;xxxxxxxxxxxxxxxx&quot;,
         &quot;cert_path&quot;:    &quot;&quot;,
         &quot;scope&quot;:        &quot;address openid profile storage.read:/ wlcg eduperson_entitlement storage.create:/ phone offline_access eduperson_scoped_affiliation storage.modify:/ email wlcg.groups&quot;,
         &quot;audience&quot;:     &quot;&quot;,
@@ -528,8 +529,8 @@ Enter decryption password for account config 'wlcg':
         &quot;username&quot;:     &quot;&quot;,
         &quot;password&quot;:     &quot;&quot;,
         &quot;client_id_issued_at&quot;:  1592322007,
-        &quot;registration_access_token&quot;:    &quot;eyJraWQiOiJyc2ExIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJmMDYyYzcxZS05MjBkLTRiNjQtODI4Mi1hMjRkNDEwMWQ4ZmMiLCJpc3MiOiJodHRwczpcL1wvd2xjZy5jbG91ZC5jbmFmLmluZm4uaXRcLyIsImlhdCI6MTU5MjMyMjAwOCwianRpIjoiMWVkYTA5MDYtMjQyMy00YWYwLTk1NzQtMmJlZjk5YWEyMGM1In0.Y81i5G7BYc2KSDRCbWb6HzXuaa3EVOpPgiFKV9BCgfZzo63WtgiOOz7q5WmQVw6GAopFZ2ZgeoWFyBQ2nId4TUbgUMxAljRVIjpVIt49yZOCXanLbRs-2GrE3aNmaG863UsWd4dtKpmLosDGvxbM9HirRDDj3YQVif63pcox2O0&quot;,
-        &quot;registration_client_uri&quot;:      &quot;https://wlcg.cloud.cnaf.infn.it/register/f062c71e-920d-4b64-8282-a24d4101d8fc&quot;,
+        &quot;registration_access_token&quot;:    &quot;xxxxxxxxxxxxxx&quot;,
+        &quot;registration_client_uri&quot;:      &quot;xxxxxxxxxxxxxx&quot;,
         &quot;token_endpoint_auth_method&quot;:   &quot;client_secret_basic&quot;,
         &quot;grant_types&quot;:  [&quot;urn:ietf:params:oauth:grant-type:device_code&quot;, &quot;refresh_token&quot;],
         &quot;response_types&quot;:       [&quot;token&quot;],
@@ -546,13 +547,13 @@ Enter decryption password for account config 'wlcg':
 
 <p>This will request a token with all the scopes requested at client registration time. </p>
 <h3 id="limiting-issued-scopes"><strong>Limiting issued scopes</strong></h3>
-<p>To limit the scopes included in the token, the -s flag can be used, as follows:</p>
+<p>To limit the scopes included in the token, the <code>-s</code> flag can be used, as follows:</p>
 <pre><code>oidc-token -s storage.read:/ wlcg
 </code></pre>
 
 <p>In this example the scopes is being limited to <code>storage.read:/</code></p>
 <h3 id="limiting-token-audience"><strong>Limiting token audience</strong></h3>
-<p>The token audience can be limited using the --aud flag,</p>
+<p>The token audience can be limited using the <code>--aud</code> flag,</p>
 <pre><code>oidc-token --aud example.audience -s storage.read:/ wlcg
 </code></pre>
 
